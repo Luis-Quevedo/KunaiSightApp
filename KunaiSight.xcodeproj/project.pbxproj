@@ -29,9 +29,31 @@
 		CD1A1FF12E136FD9003D0ABE /* KunaiSightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KunaiSightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CD6111D02E13956F00E53CC7 /* Exceptions for "KunaiSight" folder in "KunaiSight" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Config/.gitkeep,
+				Core/.gitkeep,
+				Extensions/.gitkeep,
+				MLModels/.gitkeep,
+				Models/.gitkeep,
+				Resources/.gitkeep,
+				Services/.gitkeep,
+				Utilities/.gitkeep,
+				ViewModels/.gitkeep,
+				Views/.gitkeep,
+			);
+			target = CD1A1FD62E136FD6003D0ABE /* KunaiSight */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		CD1A1FD92E136FD6003D0ABE /* KunaiSight */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CD6111D02E13956F00E53CC7 /* Exceptions for "KunaiSight" folder in "KunaiSight" target */,
+			);
 			path = KunaiSight;
 			sourceTree = "<group>";
 		};
