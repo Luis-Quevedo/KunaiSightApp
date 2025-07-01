@@ -1,0 +1,56 @@
+
+# Xcode
+*.xcworkspace
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata
+!*.xcodeproj/xcshareddata/*
+!*.xcodeproj/xcuserdata
+xcuserdata/
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+
+# CocoaPods (if used)
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# CoreML artifacts (only include .mlmodel, not training files or datasets)
+*.mlmodelc
+*.coremltools
+*.h5
+*.tflite
+*.onnx
+
+# Data & Output
+*.csv
+*.json
+*.txt
+*.xlsx
+
+# macOS & general
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*.log
+
+# GitHub
+.env
+.secret
+*.key
+*.pem
+
+# Ignore personal notes or diagrams
+*.drawio
+*.sketch
+*.pdf
+*.docx
